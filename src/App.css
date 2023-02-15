@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+i {
+  display: inline-block;
+  margin: 0pc 5px;
+}
+
+i.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+i:hover {
+  transform: scale(1.3);
+}

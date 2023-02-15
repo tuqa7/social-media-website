@@ -1,0 +1,35 @@
+.rangebody {
+  display: flex;
+  flex-direction: column;
+}
+
+.range {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: wheat;
+}
+
+input[type="range"] {
+  /* -webkit-appearance: none;*/
+  /* -moz-appearance: none;  */
+  /* -webkit-border-radius: 30px; */
+  width: fit-content;
+  height: 10px;
+  width: 170px;
+  padding: 0;
+  border-radius: 5px;
+  /* outline: white  solid 1px; */
+  accent-color: #21a091;
+  filter: hue-rotate(0deg);
+  margin: 10px;
+  cursor: grab;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  /* -webkit-appearance: none; */
+  width: 13px;
+  height: 17px;
+  background: #21a091;
+  border-radius: 50%;
+}

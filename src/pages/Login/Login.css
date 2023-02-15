@@ -1,0 +1,46 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login > form {
+  width: 50%;
+}
+.login > h2 {
+  margin: 40px 0px;
+  color: #21a091;
+}
+
+form > .col {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  row-gap: 15px;
+}
+
+.col > label {
+  text-align: left;
+}
+
+.col > input {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #c3c3c3;
+  outline: none;
+  border: 1px solid #c3c3c3;
+}
+
+.loginbutton > button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 5px #c3c3c3;
+  outline: none;
+  border: 1px solid #c3c3c3;
+  background-color: #21a091;
+  cursor: pointer;
+  font-weight: bold;
+}

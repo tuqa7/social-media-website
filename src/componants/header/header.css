@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #21a091;
+  color: rgb(43, 42, 42);
+  /* text-shadow: 2px 2px rgb(187, 187, 187); */
+  font-weight: 700px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header > .actionheaderbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > a {
+  text-decoration: none;
+  animation: none;
+}
+
+.header > .avatar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 10px;
+  text-shadow: 1px 1px rgb(235, 230, 230);
+  font-size: larger;
+  font-weight: 700;
+}
+
+.header > .avatar > .userimg {
+  background-color: rgb(230, 230, 230);
+  border-radius: 50%;
+}

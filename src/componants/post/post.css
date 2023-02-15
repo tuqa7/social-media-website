@@ -1,0 +1,18 @@
+.post-box {
+  margin: 20px;
+  height: fit-content;
+  width: 50%;
+  background-color: rgb(212, 211, 211);
+  border-radius: 25px;
+  box-shadow: 0 0 9px 5px rgb(133, 132, 132);
+}
+
+ .post_text {
+  text-align: left;
+  padding: 20px 35px;
+  /* margin:10px; */
+}
+
+.post-box > img {
+  border-radius: 15px;
+}
